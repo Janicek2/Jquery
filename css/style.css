@@ -50,9 +50,9 @@ table {
 #carousele {
   width: 400px;
   height: 200px;
-  border: solid blue 4px;
+  border: solid #555558 4px;
   overflow: hidden;
-  margin: auto;
+  margin: 100px auto;
 }
 
 ul {

@@ -12,8 +12,10 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-ul { list-style: none; margin: 0 auto; width: 400px; height: 200px; overflow: hidden; }
+#carousele { width: 400px; height: 200px; border: solid #555558 4px; overflow: hidden; margin-top: 100px; }
 
-ul li { float: left; display: block; }
+ul { width: 2000px; height: 200px; }
 
-ul img { width: 400px; height: auto; }
+ul li { width: 400px; height: 200px; list-style: none; float: left; }
+
+ul img { width: 400px; height: 200px; }

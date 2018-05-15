@@ -1,11 +1,13 @@
 $(document).ready(function() {
-    var carouseleList = $('carousele ul');
-    carousele.animate({'margin left':-400}, 500, moveFirstSlide);
+    var carouseleList = $('ul');
+    setInterval(changeSlide, 3000);
+    function changeSlide() {
+        carouseleList.animate({'marginLeft':-400}, 500, moveFirstSlide);
+    }
     function moveFirstSlide() {
-        var firstItem = carousele.find('li:first');
-        var lastItem = carousele.find('li:last');
+        var firstItem = $('ul').find('li:first');
+        var lastItem = $('ul').find('li:last');
         lastItem.after(firstItem);
-        carousele.css({marginLeft:0});
-        console.log("start");
+        carouseleList.css({marginLeft:0});
         }
     });
