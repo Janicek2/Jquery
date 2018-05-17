@@ -52,7 +52,7 @@ table {
   height: 200px;
   border: solid #555558 4px;
   overflow: hidden;
-  margin: 100px auto;
+  margin: 100px auto 0;
 }
 
 ul {
@@ -74,6 +74,13 @@ ul img {
 
 i {
   color: black;
+  border: solid gray 2px;
+  margin: 10px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

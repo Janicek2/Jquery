@@ -46,7 +46,7 @@ table {
 	height: 200px;
 	border: solid rgb(85, 85, 88) 4px;
 	overflow: hidden;
-	margin: 100px auto;
+	margin: 100px auto 0;
 }
 ul {
 	width: 2000px;
@@ -65,5 +65,11 @@ ul {
 
 i {
 	color: black;
+	border: solid gray 2px;
+	margin: 10px;
 }
 
+.arrows {
+	display: flex;
+	justify-content: center;
+}
