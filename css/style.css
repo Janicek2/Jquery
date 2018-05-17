@@ -51,6 +51,7 @@ table {
   width: 400px;
   height: 200px;
   border: solid #555558 4px;
+  overflow: hidden;
   margin: 100px auto;
 }
 

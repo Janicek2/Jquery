@@ -12,10 +12,12 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-#carousele { width: 400px; height: 200px; border: solid #555558 4px; overflow: hidden; margin: 100px auto; }
+#carousele { width: 400px; height: 200px; border: solid #555558 4px; margin: 100px auto; }
 
 ul { width: 2000px; height: 200px; }
 
 ul li { width: 400px; height: 200px; list-style: none; float: left; }
 
 ul img { width: 400px; height: 200px; }
+
+i { color: black; }
